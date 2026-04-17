@@ -206,7 +206,7 @@ export const SkillsInfo = [
       date: "Sept 2020 - march 2022",
       grade: "87.2%",
       desc: "Completed 12th (Intermediate) from Mathurashram College under the Bihar School Examination Board (BSEB), with a focus on core subjects including Physics, Chemistry, and Mathematics. Gained a strong academic foundation through the BSEB curriculum, covering fundamental concepts in science, analytical reasoning, and problem-solving skills essential for higher technical education",
-      degree: "Bachelor of Science - BSC (Computer Science)",
+      degree: "Intermediate(12th)",
     },
     {
       id: 2,
@@ -215,7 +215,7 @@ export const SkillsInfo = [
       date: "March 2020",
       grade: "90%",
       desc: "Completed 10th (Matriculation) from Saraswati Vidya Mandir, building a strong academic foundation in core subjects such as Mathematics, Science, and English. Developed essential analytical, problem-solving, and communication skills, which laid the groundwork for higher education and technical studies.",
-      degree:"Matriculation (10th)"
+      degree: "Matriculation (10th)",
     },
   ];
   
@@ -256,7 +256,7 @@ export const SkillsInfo = [
         "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
       image: movierecLogo,
       tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
+      github: "https://github.com/Satyahost/github-profile-search",
       webapp: "https://movie-recommendation-app-jet.vercel.app/",
     },
 
