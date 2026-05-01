@@ -198,6 +198,7 @@ export const SkillsInfo = [
       grade: "7.03 CGPA",
       desc: "Pursuing a Bachelor of Technology (B.Tech) in Computer Science Engineering with a specialization in Artificial Intelligence and Machine Learning , building a strong foundation in Machine Learning.Along with developing practical skills in Web Development and consistently practicing Data Structures & Algorithms (DSA) to enhance problem-solving and coding efficiency",
       degree: "Bachelor of Technology -B.Tech ",
+      certificate: "/certificates/12th.pdf",
     },
     {
       id: 1,
@@ -207,6 +208,7 @@ export const SkillsInfo = [
       grade: "87.2%",
       desc: "Completed 12th (Intermediate) from Mathurashram College under the Bihar School Examination Board (BSEB), with a focus on core subjects including Physics, Chemistry, and Mathematics. Gained a strong academic foundation through the BSEB curriculum, covering fundamental concepts in science, analytical reasoning, and problem-solving skills essential for higher technical education",
       degree: "Intermediate(12th)",
+      certificate: "/12th.jpeg",
     },
     {
       id: 2,
@@ -216,6 +218,7 @@ export const SkillsInfo = [
       grade: "90%",
       desc: "Completed 10th (Matriculation) from Saraswati Vidya Mandir, building a strong academic foundation in core subjects such as Mathematics, Science, and English. Developed essential analytical, problem-solving, and communication skills, which laid the groundwork for higher education and technical studies.",
       degree: "Matriculation (10th)",
+      certificate: "/10th.jpeg",
     },
   ];
   
