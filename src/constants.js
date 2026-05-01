@@ -195,7 +195,7 @@ export const SkillsInfo = [
       school:
         "Guru Jambheshwar University of Science & Technology,Hisar,Haryana",
       date: "Sept 2023 - July 2027",
-      grade: "7.03 CGPA",
+      grade: "7.03 SGPA",
       desc: "Pursuing a Bachelor of Technology (B.Tech) in Computer Science Engineering with a specialization in Artificial Intelligence and Machine Learning , building a strong foundation in Machine Learning.Along with developing practical skills in Web Development and consistently practicing Data Structures & Algorithms (DSA) to enhance problem-solving and coding efficiency",
       degree: "Bachelor of Technology -B.Tech ",
       certificate: "/certificates/12th.pdf",
