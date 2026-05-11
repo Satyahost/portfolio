@@ -1,7 +1,6 @@
  // Skills Section Logo's
 import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
-import sassLogo from './assets/tech_logo/sass.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
 import angularLogo from './assets/tech_logo/angular.png';
@@ -30,8 +29,7 @@ import mcLogo from './assets/tech_logo/mc.png';
 import figmaLogo from './assets/tech_logo/figma.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
-import postgreLogo from './assets/tech_logo/postgre.png';
-import csharpLogo from './assets/tech_logo/csharp.png';
+
 
 // Experience Section Logo's
 import stack from './assets/company_logo/Stack.png';
@@ -48,7 +46,7 @@ import cbse from './assets/education_logo/cbse.png';
 import github from './assets/work_logo/github.png';
 import whatsapp from './assets/work_logo/whatsapp.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
-
+import Ecart from "./assets/work_logo/Ecart.png";
 
 import Ipl from './assets/work_logo/ipl.png';
 
@@ -62,7 +60,6 @@ export const SkillsInfo = [
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-      { name: 'SASS', logo: sassLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Angular', logo: angularLogo },
@@ -83,7 +80,7 @@ export const SkillsInfo = [
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
       { name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
+     
     ],
   },
   {
@@ -93,7 +90,6 @@ export const SkillsInfo = [
       { name: 'C++', logo: cppLogo },
       { name: 'Java', logo: javaLogo },
       { name: 'Python', logo: pythonLogo },
-      { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'TypeScript', logo: typescriptLogo },
     ],
@@ -225,6 +221,28 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "E-Commerce Website:Ecart",
+      description:
+        "Developed a full-featured e-commerce web application using the MERN stack with secure authentication, payment processing, and admin management functionality. The platform allows users to browse products, search and filter items, manage cart operations, place secure orders through Razorpay, track purchases, and manage profiles.The admin dashboard provides complete control over product management, order processing, user management, and status updates.",
+      image: Ecart,
+      tags: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React JS",
+        "API",
+        "Redux Toolkit",
+        "JWT",
+        "Razorpay",
+        "Cloudinary",
+        "Render",
+        "Vercel",
+      ],
+      github: "https://github.com/Satyahost/MERN-Ecommerce",
+      webapp: "https://mern-ecommerce-henna-seven.vercel.app/",
+    },
+    {
+      id: 1,
       title: "GitHub Profile Detective",
       description:
         "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
@@ -234,7 +252,7 @@ export const SkillsInfo = [
       webapp: "https://github-profile-search-k2ar.vercel.app/",
     },
     {
-      id: 1,
+      id: 2,
       title: "WhatsApp Chat Analyzer",
       description:
         "A data science and machine learning web application that analyzes exported WhatsApp chat history to extract meaningful insights. Users can upload their chat .txt file to explore message statistics, sentiment analysis, most active users, emoji usage, word frequency, and activity heatmaps. Built with Python and Streamlit, deployed on Streamlit Cloud.",
@@ -253,7 +271,7 @@ export const SkillsInfo = [
       webapp: "https://satyahost-whatsapp-chat-analyzer-app.streamlit.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Movie Recommendation App",
       description:
         "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
@@ -264,7 +282,7 @@ export const SkillsInfo = [
     },
 
     {
-      id: 3,
+      id: 4,
       title: "IPL Win Predictor",
       description:
         "A machine learning web application that predicts the winning probability of IPL teams in real-time during a match. Users can input match details such as batting team, bowling team, target score, current score, overs completed, and wickets fallen to get an instant win probability prediction. Built using a Logistic Regression model trained on historical IPL match data and deployed with Streamlit.",
@@ -285,7 +303,7 @@ export const SkillsInfo = [
 
     ,
     {
-      id: 4,
+      id: 5,
       title: "Image Search App",
       description:
         "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
@@ -295,7 +313,7 @@ export const SkillsInfo = [
       webapp: "https://imagsearch.netlify.app/",
     },
     {
-      id: 5,
+      id: 6,
       title: "Image Background Remover",
       description:
         "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
