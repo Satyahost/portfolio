@@ -254,7 +254,7 @@ export const SkillsInfo = [
         "WordCloud",
       ],
       github: "https://github.com/Satyahost/whatsapp-chat-Analyzer",
-      webapp: "https://satyahost-whatsapp-chat-analyzer-app.streamlit.app/",
+      webapp:"https://whatsapp-chat-analyzer-paoacp9ebzyv8hscvynvkj.streamlit.app",
     },
     {
       id: 3,
